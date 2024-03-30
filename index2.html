@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <titleAdd record</title>
+</head>
+<body>
+    <h1>Adding record</h1>
+    
+    <!-- Форма для добавления записи -->
+    <form method="post" action="process_form.php">
+	<h1>fill out the form of faculty</h1>
+        <label for="fId">fId:</label>
+        <input type="text" fId="fId" name="fId" required>
+	<label for="fTitle">fTitle:</label>
+	<input type="text" fTitle="fTitle" name="fTitle" required>
+        <label for="fDean">fDean:</label>
+	<input type="text" name="fDean" name="fDean" required>
+	<br><br>
+	
+	<h1>fill out form of class</h1>
+        <label for="gId">gId:</label>
+	<input type="text" gId="gId" name="gId" required>
+	<label for="gTitle">gTitle:</label>
+        <input type="text" gTitle="gTitle" name="gTitle" required>
+	<br><br>
+
+	<h1>fill out form of student</h1>
+        <label for="studentId">studentId:</label>
+        <input type="text" studentId="studentId" name="studentId" required>
+        <label for="studentName">studentName:</label>
+        <input type="text" studentName="studentName" name="studentName" required>
+        <label for="studentSurname">studentSurname:</label>
+        <input type="text" studentSurname="studentSurname" name="studentSurname" required>
+	<br><br>
+
+	<input type="submit" value="Add record">
+    </form>
+    
+    <br>
+    <p> <a href="view_faculty.php">View faculty records</a>
+    <p> <a href="view_class.php">View classes records</a>
+    <p> <a href="view_students.php">View students records</a>
+</body>
+</html>
